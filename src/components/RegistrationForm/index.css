@@ -1,0 +1,105 @@
+/* Write your CSS code here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.head {
+  font-size: 45px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ea580c;
+}
+
+.card {
+  width: 450px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.l-text {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #475569;
+}
+
+.input-text {
+  height: 40px;
+  width: 80%;
+  border-radius: 7px;
+  padding: 20px;
+  color: #9aa5b1;
+  font-family: 'Roboto';
+  outline: none;
+  margin-top: 15px;
+  border: 1px solid #cbd2d9;
+  margin-bottom: 1px;
+}
+
+.butt {
+  height: 28px;
+  min-width: 95px;
+  max-width: 200px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ea580c;
+  font-family: 'Roboto';
+  color: white;
+  margin-top: 5px;
+}
+
+.butt-2 {
+  height: 28px;
+  width: 290px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ea580c;
+  font-family: 'Roboto';
+  color: white;
+  margin-top: 5px;
+}
+
+.par {
+  font-family: 'Roboto';
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.butt-container {
+  text-align: center;
+}
+
+.red {
+  color: #ff0b37;
+  font-family: 'Roboto';
+}
+
+.red-2 {
+  background-color: #fef2f4;
+  border: 1px solid #ff0b37;
+}
+
+.s-img {
+  height: 80px;
+  width: 80px;
+}
+
+@media screen and (max-width: 560px) {
+  .bg-container {
+    padding: 20px;
+  }
+  .card {
+    width: 90%;
+    margin: 25px;
+    box-shadow: none;
+    margin-top: -50px;
+  }
+}
